@@ -1,0 +1,76 @@
+.card_studies {
+    display: table;
+    height:200px;
+    margin:0px 50px;
+    width: 100%;
+    position: relative;
+    
+    .studies {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 20px;
+        padding: 10px 70px;
+        height: 280px;
+        display: table-cell;
+        vertical-align: middle;
+        transition: all 500ms ease-out;
+        cursor: pointer; 
+        .datesCarrer {
+            transition: all 500ms ease-out;
+
+            .img {
+                transition: all 500ms ease-out;
+                
+            }
+        }
+        .university {
+            position: absolute;
+            top: 0;
+            left: 0;
+            text-align: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 20px;
+            transition: all 500ms ease-out;
+            opacity: 0;
+            visibility: hidden;  
+               
+            .imgUniversity {
+                margin-top: 25px;
+                margin-bottom: 50px;
+                transition: all 500ms ease-out;
+            }     
+            .status {
+                font-weight: bold;
+                font-size: 20px;
+            }
+        }
+        .green {
+            background-color: rgba(145, 196, 131, .7);
+            box-shadow: rgba(145, 196, 131, .7) 0px 3px 8px;
+        }
+        .orange {
+            background-color: rgba(255, 159, 69, .7);
+            box-shadow: rgba(255, 159, 69, .7) 0px 3px 8px;
+        }
+        &:hover >.datesCarrer {
+            transform: scale(1.2); 
+            color: transparent;  
+        }
+        &:hover >.datesCarrer .img {
+            visibility: hidden; 
+            transform: scale(1.6);
+        }
+        &:hover >.university {
+            opacity: 1;
+            visibility: visible;      
+        }
+        &:hover >.university .imgUniversity {
+            margin-top: 65px;
+            margin-bottom: 25px;
+        } 
+
+    }
+    
+}

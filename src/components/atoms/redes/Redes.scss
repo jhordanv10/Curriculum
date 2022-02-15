@@ -1,0 +1,36 @@
+// .redes {
+//     margin:20px 0px 40px 0px;
+//     display: flex;
+//     justify-content: center;
+//     svg {
+//         text-decoration: none;
+//         color: #000;
+//         margin-left: 30px;
+//         margin-right: 30px;
+//     }
+// }
+.redes {
+    min-width: 700px;
+    display: flex;
+    justify-content: center;
+    margin:20px 0px 30px 0px;
+
+    a {
+      margin-left: 30px ;
+      margin-right: 30px;
+      text-decoration: none;
+      font-size: 28px;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      text-align: center;
+      background: #87A7B3;
+      color: #f1f1f1;
+      border-radius: 50%;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+      transition: all .4s ease-in-out;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }

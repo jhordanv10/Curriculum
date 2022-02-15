@@ -1,0 +1,66 @@
+.footer {
+    width: 100%;
+    height: 100%;
+    max-height: 150px;
+    background-color: #87A7B3;
+
+    .description_footer {
+        display: flex;
+        justify-content: center;
+        
+        figure {
+            display: table;
+
+            .ReactLogo {
+                width: 40px;
+                height: 40px;
+                display: table-cell;
+                vertical-align: middle;
+                pointer-events: none;
+            }
+            p {
+                display: table-cell;
+                vertical-align: middle;
+            }
+        }
+
+        .react {
+          margin-right: 70px;
+        }
+        .api {
+
+        }
+        .ImagesApis {
+          margin-left: 15px;
+          display: flex;
+          justify-content: center;
+         
+          .imgM {
+            width: 80px;
+            height: 40px;
+            margin-right: 20px;
+          }
+          .imgY {
+            width: 80px;
+            
+          }
+        }
+
+    }
+}
+
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .ReactLogo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  @keyframes ReactLogo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,25 @@
+#hobbies {
+    margin-top: -130px;
+    margin-bottom: 30px;
+    h2 {
+        color: #000;
+        font-size: 30px;
+    }
+    .marvel {
+        display: flex;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        padding: 0px 30px;
+        margin: 0px 50px;
+    }
+    .title_music {
+        margin-top: 50px;
+    }
+    .youtube {
+        display: flex;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        padding: 0px 30px;
+        margin: 0px 50px;
+    }
+}

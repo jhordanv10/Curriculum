@@ -1,0 +1,48 @@
+#profile {
+    margin-top: -130px;
+    margin-bottom: 30px;
+    h2 {
+        color: #000;
+        font-size: 30px;
+    }
+    .my_profile {
+        display: flex;
+        justify-content: center;
+        .description {
+            border-right: 1px solid #87A7B3;
+            
+            .description_p {
+                margin: 0 auto;
+                text-align: center;
+                line-height: 1.5;
+                width: 100%;
+                max-width: 500px;
+                font-size: 20px;
+                margin-right: 50px;
+            }
+        }
+        .link_cv {    
+            display: table;
+            height:200px;
+            
+            a {
+                display: table-cell;
+                vertical-align: middle; 
+                text-decoration: none;
+                color: #000;             
+                P{
+                    text-align: center;
+                    margin-left: 50px;
+                }
+                .cv_img {
+                    max-width: 150px;
+                    max-height: 150px;
+                    margin-left: 50px;
+                    border-radius: 5px;
+                }
+            }
+            
+        }
+
+    }
+}

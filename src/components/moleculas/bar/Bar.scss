@@ -1,0 +1,54 @@
+.academicBar {
+    height: 300px;
+    border: 1px solid #87A7B3;
+    padding: 0px 50px;
+    background-color: #87A7B3;
+    position: relative;
+    z-index: 1;
+    top: -130px;
+    display: flex;
+    justify-content: space-around;
+
+    a {
+        text-decoration: none;
+        transition: all .2s ease-in-out;
+        img {
+            cursor: pointer;
+            position: relative;
+            top: 45%;
+            padding: 10px;  
+        } 
+        .academic_description {
+            cursor: pointer;
+            position: relative;
+            top: 25%;
+            padding: 10px;  
+            text-decoration: none;
+            color: #D3DEDC;
+        }
+        .working_description, 
+        .knowledge_description {
+            cursor: pointer;
+            position: relative;
+            top: 35%;
+            padding: 10px;  
+            text-decoration: none;
+            color: #D3DEDC;
+        }         
+        &:hover {
+            transform: scale(1.2);
+            color: #333;
+            font-weight: bold;
+        }  
+        &:hover>p {
+            color: #87A7B3;
+            font-weight: bold;
+        }  
+    }
+    
+
+}
+
+.active {
+    border-bottom: 5px solid #D3DEDC;
+}

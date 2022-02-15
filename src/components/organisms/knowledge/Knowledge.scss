@@ -1,0 +1,14 @@
+#knowledge {
+    margin-top: -130px;
+    margin-bottom: 30px;
+    h2 {
+        color: #000;
+        font-size: 30px;
+    }
+    .knowledge_description {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 50px;        
+    }
+}

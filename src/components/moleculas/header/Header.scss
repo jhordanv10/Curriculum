@@ -1,0 +1,47 @@
+.header {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px 0px;
+    position: relative;
+    z-index: 999;
+
+    .info {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+   
+        
+        figure {
+            max-width: 200px;
+            max-height: 200px;
+            margin-top: 0px;
+    
+            img {
+                max-width: inherit;
+                max-height: inherit; 
+                border-radius: 50% ;                      
+            }
+        }
+        .description {
+            max-width: 400px;
+            margin-top: 0px;
+            
+            h2 {
+                color: #000;
+                font-weight: bold;
+                text-transform: uppercase;         
+            }
+            p {
+                span {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+}
