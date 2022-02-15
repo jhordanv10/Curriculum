@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/Curriculum/static/css/main.10c1175f.css",
+    "main.js": "/Curriculum/static/js/main.e8d955a9.js",
+    "static/js/787.595c645d.chunk.js": "/Curriculum/static/js/787.595c645d.chunk.js",
+    "static/media/CVJhordan.pdf": "/Curriculum/static/media/CVJhordan.8c1f6651d661ba739cc5.pdf",
+    "static/media/CVJhordan.png": "/Curriculum/static/media/CVJhordan.e93de28b436dbc71043d.png",
+    "static/media/react.png": "/Curriculum/static/media/react.86c8d9eba03e29814d2a.png",
+    "static/media/mysql.png": "/Curriculum/static/media/mysql.bdbd1eb709e4c13258d2.png",
+    "static/media/Marvel.png": "/Curriculum/static/media/Marvel.ad83448cb5526a9fd70d.png",
+    "static/media/Youtube.png": "/Curriculum/static/media/Youtube.6236523625ce7475f337.png",
+    "static/media/Foto.jpg": "/Curriculum/static/media/Foto.be273e768b9dfe990429.jpg",
+    "static/media/git.png": "/Curriculum/static/media/git.00e5bd772731dbe33649.png",
+    "static/media/php.png": "/Curriculum/static/media/php.c67d24b47808dc6611ed.png",
+    "static/media/LogoDyna.png": "/Curriculum/static/media/LogoDyna.b426e3ccf942a7473d06.png",
+    "static/media/css.png": "/Curriculum/static/media/css.463e319bad8e0edf1ef7.png",
+    "static/media/bootstrap.png": "/Curriculum/static/media/bootstrap.268c4375260420e8d982.png",
+    "static/media/html.png": "/Curriculum/static/media/html.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/js.png": "/Curriculum/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/LogoItm.png": "/Curriculum/static/media/LogoItm.ff389e109ad090988885.png",
+    "static/media/LogoReact.png": "/Curriculum/static/media/LogoReact.f3f7efabb478c4a62386.png",
+    "static/media/bussiness.svg": "/Curriculum/static/media/bussiness.722ac41694dafa444e6b6d9894340fda.svg",
+    "static/media/working.svg": "/Curriculum/static/media/working.5b1ec29bae07a302964e609a1246c3de.svg",
+    "static/media/developing.svg": "/Curriculum/static/media/developing.3deb8a41b037614a023d07bea32b0455.svg",
+    "static/media/hobbies.svg": "/Curriculum/static/media/hobbies.f806ae1f074fadc303b75a030490425b.svg",
+    "static/media/knowledge.svg": "/Curriculum/static/media/knowledge.bc2e8e78849e952234e5be338d0c1b40.svg",
+    "static/media/costs.svg": "/Curriculum/static/media/costs.5c62e2c57c6b27d0567223f0743f95c8.svg",
+    "static/media/academic.svg": "/Curriculum/static/media/academic.63da2250c15b629d0b7673568d7ac0c2.svg",
+    "static/media/profile.svg": "/Curriculum/static/media/profile.a5ea50051cf578af3241fe61bb9857c3.svg",
+    "index.html": "/Curriculum/index.html",
+    "static/media/arrow.svg": "/Curriculum/static/media/arrow.bac4495579df85cded4d7775562851a4.svg",
+    "main.10c1175f.css.map": "/Curriculum/static/css/main.10c1175f.css.map",
+    "main.e8d955a9.js.map": "/Curriculum/static/js/main.e8d955a9.js.map",
+    "787.595c645d.chunk.js.map": "/Curriculum/static/js/787.595c645d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10c1175f.css",
+    "static/js/main.e8d955a9.js"
+  ]
+}
