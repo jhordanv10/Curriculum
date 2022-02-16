@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Curriculum/static/css/main.797c652b.css",
-    "main.js": "/Curriculum/static/js/main.acbd9084.js",
+    "main.css": "/Curriculum/static/css/main.c2ed9f00.css",
+    "main.js": "/Curriculum/static/js/main.a7e8f9d1.js",
     "static/js/787.595c645d.chunk.js": "/Curriculum/static/js/787.595c645d.chunk.js",
     "static/media/CVJhordan.pdf": "/Curriculum/static/media/CVJhordan.8c1f6651d661ba739cc5.pdf",
     "static/media/CVJhordan.png": "/Curriculum/static/media/CVJhordan.e93de28b436dbc71043d.png",
@@ -27,12 +27,12 @@
     "static/media/profile.svg": "/Curriculum/static/media/profile.a5ea50051cf578af3241fe61bb9857c3.svg",
     "index.html": "/Curriculum/index.html",
     "static/media/arrow.svg": "/Curriculum/static/media/arrow.bac4495579df85cded4d7775562851a4.svg",
-    "main.797c652b.css.map": "/Curriculum/static/css/main.797c652b.css.map",
-    "main.acbd9084.js.map": "/Curriculum/static/js/main.acbd9084.js.map",
+    "main.c2ed9f00.css.map": "/Curriculum/static/css/main.c2ed9f00.css.map",
+    "main.a7e8f9d1.js.map": "/Curriculum/static/js/main.a7e8f9d1.js.map",
     "787.595c645d.chunk.js.map": "/Curriculum/static/js/787.595c645d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.797c652b.css",
-    "static/js/main.acbd9084.js"
+    "static/css/main.c2ed9f00.css",
+    "static/js/main.a7e8f9d1.js"
   ]
 }
