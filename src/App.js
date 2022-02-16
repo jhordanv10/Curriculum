@@ -10,9 +10,9 @@ function App() {
   return (
     <div className="App" id="App">
       <Header />
-      <Bar/>
+      <Bar />
       <Arrow />
-      <Footer/> 
+      <Footer />
     </div>
   );
 }

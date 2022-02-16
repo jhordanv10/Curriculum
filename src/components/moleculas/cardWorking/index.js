@@ -5,7 +5,7 @@ import 'animate.css';
 
 function CardWorking({ key, name, imgWork, time, load, activities }) {
     return (
-        <div className="card_working animate__animated animate__bounceInDown" key={key}>
+        <div className="card_working animate__animated animate__fadeInDownBig" key={key}>
             <div className="working">
                 <div className="datesWork" key={key}>
                     <img className="img" src={imgWork}></img>

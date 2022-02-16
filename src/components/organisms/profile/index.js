@@ -8,7 +8,7 @@ function Profile() {
     return (
         <section id="profile">
             <h2>Perfil</h2>
-            <articule className="my_profile animate__animated animate__backInDown" >
+            <articule className="my_profile animate__animated animate__fadeIn" >
                 <div className="description">
                     <p className="description_p"> Tengo 23 años, y actualmente vivo en la ciudad de Medellín, Colombia. <br></br>
                         Soy una persona responsable, aplicada y dedicada a cada cosa que hago en mi día a día.
@@ -17,7 +17,7 @@ function Profile() {
                 </div>
                 <div className="link_cv">
                     <a target="_blank" href={Cv}>
-                        <p>CV en PDF</p>
+                        <p>Ver CV en formato PDF</p>
                         <img className="cv_img" src={CvImg}></img>
                     </a>
                 </div>

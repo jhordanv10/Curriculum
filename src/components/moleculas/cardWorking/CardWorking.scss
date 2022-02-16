@@ -7,13 +7,13 @@
                 width: 135px;
                 height: 50px;
                 border-radius: 10px;
-                filter: grayscale(80%);
-                z-index: -999;
+            //     filter: grayscale(80%);
+            //     z-index: -999;
                 
-            &:hover {
-                filter: none;
-                transition: 0.5s;
-            }    
+            // &:hover {
+            //     filter: none;
+            //     transition: 0.5s;
+            // }    
             }
             .activities {
                 width: 100%;
@@ -35,14 +35,7 @@
                 img {
                     width: 135px;
                     height: 50px;
-                    border-radius: 10px;
-                    filter: grayscale(80%);
-                    z-index: -999;
-                    
-                &:hover {
-                    filter: none;
-                    transition: 0.5s;
-                }    
+                    border-radius: 10px;  
                 }
                 .activities {
                     width: 100%;
@@ -121,6 +114,8 @@
                 }
                 .activities {
                     font-size: 15px;
+                    width: 100%;
+                    max-width: 270px;
                 }
             }
         }
@@ -146,7 +141,7 @@
                 .activities {
                     font-size: 13px;
                     width: 100%;
-                    max-width: 300px;
+                    max-width: 240px;
                 }
             }
         }

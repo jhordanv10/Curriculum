@@ -7,11 +7,24 @@
   .description_footer {
     display: flex;
     justify-content: center;
+
+    div {
+      display: table;
+      p {
+        color: #000;
+        font-weight: bold;
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+    
     
     .figureReact {
       margin-right: 30px;
       width: 40px;
       height: 40px;
+      display: flex;
+      justify-content: center;
       .ReactLogo {
         width: 40px;
         height: 40px;
@@ -19,30 +32,7 @@
         vertical-align: middle;
         pointer-events: none;
       }
-    }
-    .figureMarvel {
-      margin-right: 10px;
-      margin-left: 10px;
-      .link_marvel {
-          width: 80px;
-          height: 40px; 
-        .imgM {
-          width:inherit;
-          height: inherit;
-          margin-right: 20px;
-        }
-      }
-    }
-    .figureYoutube {
-      margin-left: 10px;
-      .link_youtube {
-        width: 80px;
-        .imgY {
-          width: inherit;
-        }
-      }
-    }
-    
+    }    
   }
 
 }
