@@ -7,7 +7,7 @@ function Redes() {
             {/* <a href="#" class="fa fa-envelope"></a> */}
             <a href="https://wa.link/3n1eol" target="_blank" class="fa fa-whatsapp"></a>
             <a href="https://github.com/jhordanv10" target="_blank" class="fa fa-github"></a>
-            <a href="www.linkedin.com/in/jhordanvillamil2310/" target="_blank" class="fa fa-linkedin"></a>
+            <a href="https://www.linkedin.com/in/jhordanvillamil" target="_blank" class="fa fa-linkedin"></a>
             {/* <a href="#" class="fa fa-instagram"></a> */}
         </div>
     )
