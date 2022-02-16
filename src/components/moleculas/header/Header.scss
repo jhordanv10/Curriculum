@@ -37,11 +37,144 @@
                 text-transform: uppercase;         
             }
             p {
-                span {
-                    font-size: 20px;
-                }
+                font-size: 20px;
             }
         }
     }
 
 }
+
+@media (max-width: 2150px) {
+    .header {
+        max-width: 1400px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .header {
+        max-width: 900px;
+    }
+}
+
+@media (max-width:1024px) {
+    .header {
+        max-width: 700px;
+    }
+}
+
+@media (max-width:768px) {
+    .header {
+        padding: 0px 5px;
+        max-width: 450px;
+        .info {
+            figure {
+                max-width: 160px;
+                max-height: 160px;
+                margin-right: 10px;
+            }
+            .description {
+                h2 {
+                    font-size: 18px;
+                }
+                h4 {
+                    font-size: 15px;
+                }
+                p {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:600px) {
+    .header {
+        max-width: 380px;
+        .info {
+            figure {
+                max-width: 130px;
+                max-height: 130px;
+                margin-right: 9px;
+            } 
+            .description {
+                h2 {
+                    font-size: 17px;
+                }
+                h4 {
+                    font-size: 14px;
+                }
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:425px) {
+    .header {
+        max-width:300px;
+        .info {
+            display: block;
+            figure {
+                max-width: 100px;
+                max-width: 100px;
+                margin-right: 0px;
+                margin: 0 auto;
+                padding-top: 10px;
+            } 
+            .description {
+                padding: 0px 10px;
+                text-align: center;
+                h2 {
+                    font-size: 13px;
+                    margin: 8px 0px;
+                }
+                h4 {
+                    font-size: 10px;
+                    margin: 0px;
+                }
+                p {
+                    font-size: 12px;
+                    margin: 0px;
+                    margin-top: 8px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:375px) {
+    .header {
+        max-width: 250px;
+        margin: auto;
+        .info {
+            display: block;
+            figure {
+                max-width: 80px;
+                max-width: 80px;
+                margin-right: 0px;
+                margin: 0 auto;
+                padding-top: 10px;
+            } 
+            .description {
+                padding: 0px 10px;
+                text-align: center;
+                h2 {
+                    font-size: 12px;
+                    margin: 5px 0px;
+                }
+                h4 {
+                    font-size: 9px;
+                    margin: 0px;
+                }
+                p {
+                    font-size: 10px;
+                    margin: 0px;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}
+

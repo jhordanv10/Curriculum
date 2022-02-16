@@ -74,3 +74,99 @@
     }
     
 }
+
+@media (max-width: 2150px) {
+    .card_studies {
+        margin:0px 50px;
+        width: 100%;
+        min-width: 400px;
+        max-width: 500px;
+        height: 350px;
+        // min-height: 350px;
+        .studies {
+            height: 350px;
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    .card_studies {
+        margin:0px 20px;
+        width: 100%;
+        min-width: 300px;
+        max-width: 400px;
+        height: 250px;
+        // min-height: 300px;
+        // margin-bottom: 20px;
+        .studies {
+            height: 250px;
+            .university {  
+                .status {
+                    font-weight: bold;
+                    font-size: 20px;
+                    margin-top: -30px;
+                }
+            }
+            
+        }
+        
+    }
+
+}
+
+@media (max-width:1024px) {
+    .card_studies {
+        margin:0px 15px;
+        width: 100%;
+        min-width: 200px;
+        max-width: 300px;
+        height: 200px;
+        .studies {
+            padding: 0px 30px;
+            height: 230px;
+            .datesCarrer {
+                .name {
+                    font-size: 15px;
+                    margin-top: 0px;
+                }
+                .img {  
+                    width: 50px;
+                    height: 50px;
+                }
+                .time {
+                    margin: 10px 0px;
+                }
+                .site {
+                    margin: 10px 0px;
+                    margin-bottom: 0px;
+                }
+            }
+            &:hover >.university .imgUniversity {
+                margin-top: 30px;
+                margin-bottom: 25px;
+            } 
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .card_studies {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width:425px) {
+    .card_studies {
+       margin-bottom: 30px;
+       width: 270px;
+    }
+}
+
+@media (max-width:375px) {
+    .card_studies {
+        margin-bottom: 30px;
+        width: 240px;
+     }
+}
+

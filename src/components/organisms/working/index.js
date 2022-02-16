@@ -33,7 +33,6 @@ const works = [
 
 function Working() {
 
-    
     return (
         <div id="working" >
             <h2>Experiencia laboral</h2>

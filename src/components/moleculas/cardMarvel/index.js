@@ -10,7 +10,6 @@ function CardMarvel({ id, title, imgPath, imgExtension, pages }) {
                 <h5 className="card-title">Cómic #{id}</h5>
                 <p className="pages">Páginas: {pages}</p>
                 <p className="card-text comic_description">{title}</p>
-                
                 {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
             </div>
         </div>

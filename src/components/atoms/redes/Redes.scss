@@ -1,16 +1,6 @@
-// .redes {
-//     margin:20px 0px 40px 0px;
-//     display: flex;
-//     justify-content: center;
-//     svg {
-//         text-decoration: none;
-//         color: #000;
-//         margin-left: 30px;
-//         margin-right: 30px;
-//     }
-// }
+
 .redes {
-    min-width: 700px;
+    max-width: inherit;
     display: flex;
     justify-content: center;
     margin:20px 0px 30px 0px;
@@ -34,3 +24,63 @@
       }
     }
   }
+
+
+  @media (max-width: 2150px) {
+    .redes {
+      a {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+      }
+    }
+  }
+  
+  @media (max-width: 1440px) {
+    .redes {
+      a {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+      }
+    }
+  }
+
+  @media (max-width:768px) {
+    .redes {
+      margin:0px;
+      padding: 10px;
+      a {
+        width:40px;
+        height:40px;
+        line-height:40px;
+        font-size: 23px;
+      }
+    }
+  }
+  
+  @media (max-width:425px) {
+    .redes {
+      a {
+        width:30px;
+        height:30px;
+        line-height:30px;
+        font-size: 20px;
+      }
+    }
+  
+  }
+  
+  @media (max-width:375px) {
+    .redes {
+      a {
+        margin: 0px 20px;
+        width:25px;
+        height: 25px;
+        line-height:25px;
+        font-size: 15px;
+      }
+    }
+  
+  }
+  

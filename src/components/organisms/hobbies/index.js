@@ -65,10 +65,9 @@ function Hobbies() {
     return (
         <section id="hobbies">
             <h2>Hobbies</h2>
-
             {loading ? <Loading /> : (
                 <>
-                    <articule >
+                    <articule className="description_hobbies">
                         <h3> En mis tiempos libres, me gusta mucho leer y ver todo lo relacionado con el universo Marvel.
                             Cómics, series y películas... </h3>
                         <div className="marvel">
@@ -87,7 +86,7 @@ function Hobbies() {
                         </div>
 
                     </articule>
-                    <articule >
+                    <articule className="description_hobbies">
                     <h3 className="title_music"> También, en mis ratos libres me gusta escuchar música. Mi género preferido es la salsa, en específico, la clásica</h3>
                         <div className="youtube">
                             {dataYoutube && dataYoutube.map(youtube => {

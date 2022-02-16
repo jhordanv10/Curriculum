@@ -1,6 +1,12 @@
 #hobbies {
     margin-top: -130px;
     margin-bottom: 30px;
+
+    .description_hobbies {
+        h3 {
+            padding: 0px 30px;
+        }
+    }
     h2 {
         color: #000;
         font-size: 30px;
@@ -13,7 +19,7 @@
         margin: 0px 50px;
     }
     .title_music {
-        margin-top: 50px;
+        margin-top: 30px;
     }
     .youtube {
         display: flex;
@@ -21,5 +27,50 @@
         overflow-y: hidden;
         padding: 0px 30px;
         margin: 0px 50px;
+    }
+}
+
+@media (max-width:768px) {
+    #hobbies {
+        margin-top: -110px;
+        .description_hobbies {
+            h3 {
+                font-size: 18px;
+            }
+        }
+        .youtube, .marvel {
+            margin: 0px 30px;
+        }
+    }
+}
+
+@media (max-width:600px) {
+    #hobbies {
+        margin-top: -90px;
+        .description_hobbies {
+            h3 {
+                font-size: 16px;
+            }
+        }
+        .youtube, .marvel {
+            margin: 0px 25px;
+            padding: 0px 20px;
+        }
+    }
+
+}
+
+@media (max-width:425px) {
+    #hobbies {
+        margin-top: -70px;
+        .description_hobbies {
+            h3 {
+                font-size: 15px;
+            }
+        }
+        .youtube, .marvel {
+            margin: 0px 15px;
+            padding: 0px 15px;
+        }
     }
 }

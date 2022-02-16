@@ -52,3 +52,76 @@
 .active {
     border-bottom: 5px solid #D3DEDC;
 }
+
+@media (max-width:1024px) {
+    .academicBar {
+        padding: 0px 25px;
+        a {
+            img {
+                width: 130px;
+                height: 130px;
+                padding: 15px;
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .academicBar {
+        padding: 0px 20px;
+        height: 230px;
+        top: -110px;
+        a {
+            img {
+                width: 80px;
+                height: 80px;
+                padding: 15px;
+            }
+        }
+    }
+}
+
+@media (max-width:600px) {
+    .academicBar {
+        padding: 0px 5px;
+        height: 190px;
+        top: -90px;
+        a {
+            img {
+                width: 60px;
+                height: 60px;
+                padding: 15px 0px;
+            }
+        }
+    }
+}
+
+@media (max-width:425px) {
+    .academicBar {
+        padding: 0px 5px;
+        height: 150px;
+        top: -70px;
+        a {
+            img {
+                width: 45px;
+                height: 45px;
+                padding: 15px 0px;
+            }
+        }
+    }
+}
+
+@media (max-width:375px) {
+    .academicBar {
+        padding: 0px 5px;
+        height: 130px;
+        top: -60px;
+        a {
+            img {
+                width: 40px;
+                height: 40px;
+                padding: 15px 0px;
+            }
+        }
+    }
+}

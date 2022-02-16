@@ -19,3 +19,108 @@
         }
     }
 }
+
+@media (max-width: 2150px) {
+    .card_knowledge {
+        .know {
+            .datesKnowledge {
+                margin: 0px 100px 70px 100px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    .card_knowledge {
+        .know {
+            .datesKnowledge {
+                margin: 0px 80px 70px 80px;
+            }
+        }
+    }
+
+}
+
+@media (max-width:1024px) {
+    .card_knowledge {
+        .know {
+            .datesKnowledge {
+                margin: 0px 40px 50px 40px;
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .card_knowledge {
+        .know {
+            .datesKnowledge {
+                margin: 0px 30px 50px 30px;
+                .images {
+                    .imgKnow {
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+                .descriptions {
+                    .name {
+                        font-size: 20px;
+                    }
+                    .progress {
+                        height: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:600px) {
+    .card_knowledge {
+        .know {
+            .datesKnowledge {
+                margin: 0px 20px 50px 20px;
+                .images {
+                    .imgKnow {
+                        width: 65px;
+                        height: 65px;
+                    }
+                }
+                .descriptions {
+                    .name {
+                        font-size: 18px;
+                    }
+                    .progress {
+                        height: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:425px) {
+    .card_knowledge {
+        .know {
+            .datesKnowledge {
+                margin: 0px 20px 30px 20px;
+                .images {
+                    .imgKnow {
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+                .descriptions {
+                    .name {
+                        font-size: 16px;
+                    }
+                    .progress {
+                        height: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+

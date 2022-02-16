@@ -17,7 +17,7 @@ function Profile() {
                 </div>
                 <div className="link_cv">
                     <a target="_blank" href={Cv}>
-                        <p>Click para ver CV</p>
+                        <p>CV en PDF</p>
                         <img className="cv_img" src={CvImg}></img>
                     </a>
                 </div>
