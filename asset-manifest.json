@@ -1,14 +1,12 @@
 {
   "files": {
-    "main.css": "/Curriculum/static/css/main.1b903c71.css",
-    "main.js": "/Curriculum/static/js/main.4c1d955a.js",
+    "main.css": "/Curriculum/static/css/main.797c652b.css",
+    "main.js": "/Curriculum/static/js/main.acbd9084.js",
     "static/js/787.595c645d.chunk.js": "/Curriculum/static/js/787.595c645d.chunk.js",
     "static/media/CVJhordan.pdf": "/Curriculum/static/media/CVJhordan.8c1f6651d661ba739cc5.pdf",
     "static/media/CVJhordan.png": "/Curriculum/static/media/CVJhordan.e93de28b436dbc71043d.png",
     "static/media/react.png": "/Curriculum/static/media/react.86c8d9eba03e29814d2a.png",
     "static/media/mysql.png": "/Curriculum/static/media/mysql.bdbd1eb709e4c13258d2.png",
-    "static/media/Marvel.png": "/Curriculum/static/media/Marvel.ad83448cb5526a9fd70d.png",
-    "static/media/Youtube.png": "/Curriculum/static/media/Youtube.6236523625ce7475f337.png",
     "static/media/Foto.jpg": "/Curriculum/static/media/Foto.be273e768b9dfe990429.jpg",
     "static/media/git.png": "/Curriculum/static/media/git.00e5bd772731dbe33649.png",
     "static/media/php.png": "/Curriculum/static/media/php.c67d24b47808dc6611ed.png",
@@ -29,12 +27,12 @@
     "static/media/profile.svg": "/Curriculum/static/media/profile.a5ea50051cf578af3241fe61bb9857c3.svg",
     "index.html": "/Curriculum/index.html",
     "static/media/arrow.svg": "/Curriculum/static/media/arrow.bac4495579df85cded4d7775562851a4.svg",
-    "main.1b903c71.css.map": "/Curriculum/static/css/main.1b903c71.css.map",
-    "main.4c1d955a.js.map": "/Curriculum/static/js/main.4c1d955a.js.map",
+    "main.797c652b.css.map": "/Curriculum/static/css/main.797c652b.css.map",
+    "main.acbd9084.js.map": "/Curriculum/static/js/main.acbd9084.js.map",
     "787.595c645d.chunk.js.map": "/Curriculum/static/js/787.595c645d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b903c71.css",
-    "static/js/main.4c1d955a.js"
+    "static/css/main.797c652b.css",
+    "static/js/main.acbd9084.js"
   ]
 }
