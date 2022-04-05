@@ -5,7 +5,7 @@ import './CardMarvel.scss'
 function CardMarvel({ id, title, imgPath, imgExtension, pages }) {
     return (
         <div className="card card_marvel">
-            <img src={`${imgPath}.${imgExtension}`} className="card-img-top"></img>
+            <img src={`${imgPath}.${imgExtension}`} className="card-img-top" alt="img-comic"></img>
             <div className="card-body ">
                 <h5 className="card-title">Cómic #{id}</h5>
                 <p className="pages">Páginas: {pages}</p>

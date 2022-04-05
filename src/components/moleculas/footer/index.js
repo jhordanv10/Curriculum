@@ -14,7 +14,7 @@ function Footer() {
                 </div>
 
                 <figure className="figureReact">
-                    <img className="ReactLogo" src={LogoReact}></img>
+                    <img className="ReactLogo" src={LogoReact} alt="img-react"></img>
                 </figure>
             </div>
 

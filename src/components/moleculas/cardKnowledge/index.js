@@ -8,7 +8,7 @@ function CardKnowledge({ key, name, imgKnow, percentage }) {
             <div className="know">
                 <div className="datesKnowledge" key={key}>
                     <div className="images">
-                        <img className="imgKnow" src={imgKnow} ></img>
+                        <img className="imgKnow" src={imgKnow} alt="img-know"></img>
                     </div>
                     <div className="descriptions">
                         <h3 className="name"> {name} </h3>

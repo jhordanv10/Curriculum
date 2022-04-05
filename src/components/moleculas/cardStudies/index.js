@@ -9,14 +9,14 @@ function CardStudies({ key, name, img, time, site, status, imgUniversity }) {
             <div className="studies">
                 <div className="datesCarrer">
                     <h3 className="name"> {name} </h3>
-                    <img className="img" src={img} ></img>
+                    <img className="img" src={img} alt="img-carrer" ></img>
                     <p className="time">{time}</p>
                     <p className="site">{site}</p>
                 </div>
 
                 <div className={`university ${ status === 'Terminado' && 'green'}
                 ${ status === 'En curso' && 'orange'} `} >
-                    <img className="imgUniversity" src={imgUniversity}></img>
+                    <img className="imgUniversity" src={imgUniversity} alt="img-university"></img>
                     <p className="status">{status}</p>
                 </div>
             </div>

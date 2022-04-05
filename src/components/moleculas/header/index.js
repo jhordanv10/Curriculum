@@ -10,7 +10,7 @@ function Header() {
             <Redes />
             <div className="info">
                 <figure>
-                    <img src={Foto}></img>
+                    <img src={Foto} alt="foto"></img>
                 </figure>
                 <div className="description">
                     <h2> Jhordan Villamil Acevedo</h2>

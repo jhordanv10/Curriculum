@@ -20,14 +20,6 @@ function Hobbies() {
 
     const marvelApi = axios.create({
         baseURL: 'https://gateway.marvel.com:443/v1/public/comics?ts=1&apikey=b59a1df57b614af737ec6d2b7e70fa00&hash=0e85b1397bef390a57f4ca51c8b692fb'
-        //https://gateway.marvel.com:443/v1/public/comics?apikey=b59a1df57b614af737ec6d2b7e70fa00
-        //key priv: 000e25574b6da8dce1f9c369fa9294c1f479d668
-        //key publc: b59a1df57b614af737ec6d2b7e70fa00
-
-        //ts: 1
-
-        //1000e25574b6da8dce1f9c369fa9294c1f479d668b59a1df57b614af737ec6d2b7e70fa00
-        //hash: 0e85b1397bef390a57f4ca51c8b692fb
     })
 
     const youtubeApi = axios.create({

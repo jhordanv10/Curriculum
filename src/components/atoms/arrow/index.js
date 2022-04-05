@@ -5,7 +5,7 @@ import './Arrow.scss';
 function Arrow() {
     return (
         <a href="#App" className="arrow">
-            <img src={ArrowImg}></img>
+            <img src={ArrowImg} alt="img arrow"></img>
         </a>
     )
 }

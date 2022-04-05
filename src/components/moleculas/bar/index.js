@@ -50,35 +50,35 @@ function Bar() {
                     onClick={() => onChangeOption('profile')}
                     setOption={setOption}
                 >
-                    <img className="profile" src={ProfileImg} />
+                    <img className="profile" src={ProfileImg} alt="img-profile" />
                     {/* <p className="knowledge_description">Conocimientos</p> */}
                 </a>
 
                 <a href="#academic" className={`academic ${!!option.academic && 'active'} `}
                     onClick={() => onChangeOption('academic')}
                 >
-                    <img className="academic" src={AcademicImg} />
+                    <img className="academic" src={AcademicImg} alt="img-academic"/>
                     {/* <p className="academic_description">Historia académica</p> */}
                 </a>
 
                 <a href="#working" className={`working ${!!option.working && 'active'} `}
                     onClick={() => onChangeOption('working')}
                 >
-                    <img className="working" src={WorkingImg} />
+                    <img className="working" src={WorkingImg} alt="img-working"/>
                     {/* <p className="working_description">Experiencia laboral</p> */}
                 </a>
 
                 <a href="#knowledge" className={`knowledge ${!!option.knowledge && 'active'} `}
                     onClick={() => onChangeOption('knowledge')}
                 >
-                    <img className="knowledge" src={KnowledgeImg} />
+                    <img className="knowledge" src={KnowledgeImg} alt="img-knowledge" />
                     {/* <p className="knowledge_description">Conocimientos</p> */}
                 </a>
 
                 <a href="#hobbies" className={`hobbies ${!!option.hobbies && 'active'} `}
                     onClick={() => onChangeOption('hobbies')}
                 >
-                    <img className="hobbies" src={HobbiesImg} />
+                    <img className="hobbies" src={HobbiesImg} alt="img-hobbies" />
                     {/* <p className="knowledge_description">Conocimientos</p> */}
                 </a>
 
