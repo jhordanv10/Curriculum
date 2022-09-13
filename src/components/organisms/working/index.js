@@ -2,6 +2,7 @@ import React from "react";
 import CardWorking from '../../moleculas/cardWorking'
 
 import ImgDyna from '../../../assets/LogoDyna.png';
+import ImgGraphic from '../../../assets/LogoGraphic.png';
 import './Working.scss';
 
 //Array Working
@@ -27,6 +28,20 @@ const works = [
         Infomes de abastecimiento (CEDI),
         Liqudación de importaciones,
         Contacto con agentes aduaneros.`,
+
+    },
+    {
+        id: 3,
+        imgWork: ImgGraphic,
+        name: 'Graphic Market Company S.A.S',
+        load: 'Desarrollador Frontend',
+        time: 'Mayo 2022 - Actualmente',
+        activities: `Dar soporte y optimizar aplicaciones web de la compañía,
+        Desarrollar sitios web,
+        Desarrollar aplicaciones con React js y frameworks de JavaScript,
+        Consumo de web services y api rest,
+        Implementación de arquitectura de software y patrones de diseño.
+        `,
 
     }
 ]

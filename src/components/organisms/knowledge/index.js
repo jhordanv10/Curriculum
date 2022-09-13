@@ -8,6 +8,11 @@ import BootstrapImg from '../../../assets/bootstrap.png';
 import ReactImg from '../../../assets/react.png';
 import PhpImg from '../../../assets/php.png';
 import MysqlImg from '../../../assets/mysql.png';
+import VueImg from '../../../assets/vue.png'
+import VuetifyImg from '../../../assets/vuetify.png'
+import TailwindImg from '../../../assets/tailwind.png'
+import ThreeImg from '../../../assets/three.png'
+
 import CardKnowledge from '../../moleculas/cardKnowledge'
 
 import './Knowledge.scss';
@@ -18,48 +23,71 @@ import './Knowledge.scss';
             id:1,
             name: 'Html',
             imgKnow: HtmlImg,
-            percentage: 85,
+            percentage: 90,
         },
         {
             id:2,
             name: 'Css',
             imgKnow: CssImg,
-            percentage: 75,
+            percentage: 90,
         },
         {
             id:3,
-            
             name: 'Javascript',
             imgKnow: JavascriptImg,
-            percentage: 60,
-
+            percentage: 85,
+            
         },
         {
             id:4,
             name: 'Git',
             imgKnow: GitImg,
-            percentage: 60,
+            percentage: 85,
         },
         {
             id:5,
-            name: 'Bootstrap',
-            imgKnow: BootstrapImg,
-            percentage: 60,
+            name: 'Vue js',
+            imgKnow: VueImg,
+            percentage: 85,
         },
         {
             id:6,
             name: 'React',
             imgKnow: ReactImg,
-            percentage: 55,
+            percentage: 70,
         },
         {
             id:7,
+            name: 'Tailwind',
+            imgKnow: TailwindImg,
+            percentage: 65,
+        },
+        {
+            id:8,
+            name: 'Bootstrap',
+            imgKnow: BootstrapImg,
+            percentage: 60,
+        },
+        {
+            id:9,
+            name: 'Vetify',
+            imgKnow: VuetifyImg,
+            percentage: 50,
+        },
+        {
+            id:10,
+            name: 'ThreeJs',
+            imgKnow: ThreeImg,
+            percentage: 50,
+        },
+        {
+            id:11,
             name: 'PHP',
             imgKnow: PhpImg,
             percentage: 50,
         },
         {
-            id:8,
+            id:12,
             name: 'MySql',
             imgKnow: MysqlImg,
             percentage: 40,
